@@ -23,7 +23,7 @@ if (button != undefined){
         if(links[i].href.indexOf("xn----7sbab5aqcbiddtdj1e1g.xn--p1ai") != -1){
             console.log("Ссылка найдена "+links[i]);
             links[i].removeAttribute('target');
-          //  links[i].click();
+            links[i].click();
             break;
         }
     }
